@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background-color: rgb(255, 240, 220);
+}
+.text-group {
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    position: relative;
+    top: 200px;
+    font-family: cursive;
+    font-size:x-large;
+}
+#firstName {
+    font-size: large;
+    font-family: cursive;
+    border-radius: 5px;
+    background-color: rgb(255, 240, 220);
+    border: 2px solid rgb(78, 78, 150);
+    height: 25px;
+}
+div{
+    color: rgb(78, 78, 150);
+}
+::placeholder {
+    color: rgb(78, 78, 150);
+    opacity: 1;
+    font-size: large;
+    font-family: cursive;
+}
+#submit {
+    height: 40px;
+    width: 87px;
+    font-size: large;
+    font-family: cursive;
+    background-color: rgb(255, 240, 220);
+    border: 2px solid rgb(78, 78, 150);
+    color: rgb(78, 78, 150);
+    border-radius: 5px;
+    height: 30px;
+    width: 90px;
+}
+#lastName {
+    font-size: large;
+    font-family: cursive;
+    border-radius: 5px;
+    background-color: rgb(255, 240, 220);
+    border: 2px solid rgb(78, 78, 150);
+    height: 25px;
+}
+#email {
+    color: rgb(78, 78, 150);
+    border: 2px solid rgb(78, 78, 150);
+    border-radius: 5px;
+    height: 25px;
+    background-color:rgb(255, 240, 220);
+    width: 268px;
+}
